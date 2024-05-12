@@ -5,6 +5,11 @@ let games = [
     { id: '3', title: 'Elden Ring', platform: ['PS5', 'Xbox', 'PC'] },
     { id: '4', title: 'Mario Kart', platform: ['Switch'] },
     { id: '5', title: 'Pokemon Scarlet', platform: ['PS5', 'Xbox', 'PC'] },
+    { id: '6', title: 'Zelda, Tears of the Kingdom', platform: ['Switch'] },
+    { id: '7', title: 'Final Fantasy 7 Remake', platform: ['PS5', 'Xbox'] },
+    { id: '8', title: 'Elden Ring', platform: ['PS5', 'Xbox', 'PC'] },
+    { id: '9', title: 'Mario Kart', platform: ['Switch'] },
+    { id: '10', title: 'Pokemon Scarlet', platform: ['PS5', 'Xbox', 'PC'] },
 ]
 
 // parent table

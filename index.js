@@ -46,6 +46,22 @@ const resolvers = {
         game(parent, args, content) {
             return db.games.find((game) => game.id == parent.game_id)
         }
+    },
+    Mutation: {
+        deleteGame(_, args, context) {
+            db.games = db.games.filter((game) => game.id != args.id);
+            return db.games;
+        },
+        addGgame(_, args, context) {
+            let game = {
+                ...args.game,
+                id: Math.floor(Math.random() * 1000).toString()
+            }
+
+            db.games.push(game);
+
+            return game;
+        }
     }
 }
 
